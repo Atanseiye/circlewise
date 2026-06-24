@@ -1,9 +1,14 @@
 
-# Nestjs specific
-/dist
+# Dependencies
 /node_modules
+
+# Next.js
+/.next
+/out
+
+# Build output
+/dist
 /build
-/tmp
 
 # Logs
 logs
@@ -14,13 +19,19 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# dotenv environment variable files
+# Local environment files
 .env
 .env.development
 .env.test
 .env.production
+.env*.local
 
-# temp directory
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Local temp/cache directories
 .temp
 .tmp
->>>>>>> 3f919431cb09f27f83efb1e9ade0c1b25cefb3e3
+/tmp
+/.server
