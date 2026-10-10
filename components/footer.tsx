@@ -56,15 +56,15 @@ export function Footer() {
           <div className="mt-4 grid gap-3 text-sm text-white/75">
             <p className="flex gap-3">
               <Mail aria-hidden="true" className="mt-0.5 h-4 w-4 shrink-0 text-rose-200" />
-              hello@circlewise.org
+              adewusimercyerioluwa@gmail.com
             </p>
             <p className="flex gap-3">
               <Phone aria-hidden="true" className="mt-0.5 h-4 w-4 shrink-0 text-rose-200" />
-              WhatsApp: +234 000 000 0000
+              WhatsApp: +234 806 567 8634
             </p>
             <p className="flex gap-3">
               <MapPin aria-hidden="true" className="mt-0.5 h-4 w-4 shrink-0 text-rose-200" />
-              Community outreach office, location placeholder
+              Community outreach office, FUTA South, Akure, Ondo State
             </p>
           </div>
         </div>

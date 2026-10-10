@@ -32,22 +32,22 @@ export default function ContactPage() {
               {[
                 {
                   title: "Email",
-                  text: "hello@circlewise.org",
+                  text: "adewusimercyerioluwa@gmail.com",
                   icon: Mail
                 },
                 {
                   title: "WhatsApp",
-                  text: "+234 000 000 0000",
+                  text: "+234 806 567 8634",
                   icon: MessageCircle
                 },
                 {
                   title: "Phone",
-                  text: "+234 000 000 0000",
+                  text: "+234 806 567 8634",
                   icon: Phone
                 },
                 {
                   title: "Location",
-                  text: "Community outreach office, location placeholder",
+                  text: "Community outreach office, FUTA South, Akure, Ondo State",
                   icon: MapPin
                 }
               ].map((item) => {

@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
+import { ButtonLink } from "@/components/button-link";
 import { Container } from "@/components/container";
-import { PeriodTracker } from "@/components/period-tracker";
 
 export const metadata: Metadata = {
   title: "Period Tracker",
-  description:
-    "Use CircleWise's privacy-first period tracker to estimate your next period, ovulation day, and fertile window from data stored only in your browser."
+  description: "Open the Ilera Her period tracker app from CircleWise Initiative."
 };
 
 export default function TrackerPage() {
@@ -14,18 +13,19 @@ export default function TrackerPage() {
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-bold uppercase tracking-[0.08em] text-rose-600">
-            Privacy-first tool
+            Period Tracker
           </p>
           <h1 className="mt-4 text-4xl font-extrabold leading-tight text-plum-900 sm:text-5xl">
-            A simple period tracker for learning your cycle.
+            Get to know your cycle with Ilera Her.
           </h1>
           <p className="mt-5 text-base leading-8 text-ink/75 sm:text-lg">
-            Enter your last period start date, average cycle length, and period duration
-            to see estimated dates. Your information stays on your device.
+            Visit our period tracker app to start tracking your cycle.
           </p>
-        </div>
-        <div className="mt-10">
-          <PeriodTracker />
+          <div className="mt-8 flex justify-center">
+            <ButtonLink href="https://ilera-her-ai.onrender.com">
+              Open Period Tracker
+            </ButtonLink>
+          </div>
         </div>
       </Container>
     </section>

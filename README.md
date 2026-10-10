@@ -45,7 +45,7 @@ npm run typecheck
 
 ## Privacy Note
 
-The period tracker stores entries only in the visitor's browser using `localStorage`. CircleWise does not receive or store tracker data in this version.
+The Period Tracker page links to the Ilera Her app at https://ilera-her-ai.onrender.com. Refer to the app for information about how tracker data is handled.
 
 ## Contact Form
 
